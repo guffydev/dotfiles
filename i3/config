@@ -194,9 +194,17 @@ bar {
 		inactive_workspace #282c34 #c678dd #282c34
 	}
 	font pango:DejaVu Sans Mono 10
+	position top
 }
 
 # Custom config
+# Theme
+# class                         border          background      text            indicator       child_border
+client.focused                  #282c34         #282c34         #c678dd         #282c34         #29232e 
+client.focused_inactive         #282c34         #282c34         #ffff33         #282c34         #29232e
+client.unfocused                #282c34         #282c34         #888888         #282c34         #29232e 
+client.urgent                   #282c34         #282c34         #ffffff         #282c34         #29232e
+
 exec setxkbmap -layout 'us,ru,ua' -option 'grp:alt_shift_toggle' # Change language
 
 bindcode 107 exec xfce4-screenshooter # PrntScr bind
