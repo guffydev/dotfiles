@@ -1,0 +1,14 @@
+general {
+    colors = true # включение/выключение поддержки цветов true/false
+    interval = 1 # интервал обновления строки статуса, в секундах
+    output_format = "i3bar" # формат вывода, устанавливаем i3bar (JSON)
+    color_bad = "#ff4081"
+}
+
+# порядок вывода модулей
+order += "tztime local"
+
+# вывод даты и времени по заданному формату
+tztime local {
+    format = "%d %b | %H:%M:%S "
+}
