@@ -1,6 +1,6 @@
 # dotfiles
 ```
-Arch req: kitty feh
+Arch req: feh thunar file-roller
 Fonts: powerline-fonts
 ZSH Theme: arrow
 ```
