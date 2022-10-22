@@ -1,6 +1,6 @@
 # dotfiles
 ```
 Arch req: kitty feh
-Fonts: nerd-fonts-noto
+Fonts: powerline-fonts
 ZSH Theme: arrow
 ```
